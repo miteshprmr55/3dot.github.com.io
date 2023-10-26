@@ -1,0 +1,99 @@
+.main {
+    width: 100%;
+    height: auto;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.extra {
+    display: flex;
+    width: 80% !important;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    /* margin-top: 65% !important; */
+    background-color: pink;
+    /* padding: 20px !important; */
+}
+.extra div {
+    padding: 10px;
+}
+.extra div:hover {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.fa {
+    margin-right: 20px;
+    position: relative;
+    display: none !important;
+}
+
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 480px) 
+{
+
+    .main {
+        width: 100% !important;
+        height: auto;
+        background-color: pink;
+        display: flex;
+        align-items: center;
+        /* position:  relative !important; */
+    }
+
+
+ .extra {
+    
+    
+        display: none !important;
+        width: 100% !important;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        position: relative !important;
+        bottom: 21%;
+        background-color: pink;
+        border: 1px solid black;
+        border-radius: 15px;
+        margin-right: 3%;
+    
+ }
+ .main:hover .extra {
+
+    display: block !important;
+    width: 80% !important;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    /* position: absolute !important; */
+    bottom: 21%;
+    background-color: pink;
+    padding: 20px !important;
+
+ }
+
+.logo {
+    width: 85%;
+    height: auto;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.fa {
+    display: block !important;
+}
+
+
+}
